@@ -1,18 +1,10 @@
-Here is your content formatted into a clean and comprehensive `README.md` file for the **Autovest** project:
-
----
-
-````markdown
 # Autovest: Your Web3 Piggy Bank 🚀
 
-![Autovest Logo](https://via.placeholder.com/150?text=Autovest+Logo)
-> *Note: Replace with the actual logo image path once uploaded to your repository.*
-
-Welcome to **Autovest**, a decentralized application (dApp) built on **NERO Chain** that reimagines savings as a seamless, rewarding journey. Autovest is your Web3 piggy bank—automating stablecoin deposits, earning low-risk DeFi yields, and removing the friction of gas fees through NERO’s **Paymaster**. Designed for the NERO Chain Buildathon, Autovest delivers simplicity, accessibility, and fun to onboard the next billion Web3 users.
+Welcome to **Autovest**, a decentralized application (dApp) built on **NERO Chain** that reimagines savings as a seamless, rewarding journey. Autovest is your Web3 piggy bank—automating stablecoin deposits, earning low-risk DeFi yields, and removing the friction of gas fees through NERO’s **Paymaster**. Autovest delivers simplicity, accessibility, and fun to onboard the next billion Web3 users.
 
 ---
 
-## 🌱 What It Does
+## What It Does
 
 - **Automates Savings**: Schedule weekly or monthly stablecoin (e.g., USDC) deposits into a smart contract.
 - **Earns Yields**: Leverages low-risk DeFi strategies on NERO Chain for passive growth.
@@ -21,7 +13,7 @@ Welcome to **Autovest**, a decentralized application (dApp) built on **NERO Chai
 
 ---
 
-## 🛠️ The Problem It Solves
+## The Problem It Solves
 
 Web3 savings are often inaccessible due to:
 - **High gas fees** ➜ Autovest eliminates them via Paymaster.
@@ -30,16 +22,15 @@ Web3 savings are often inaccessible due to:
 
 ---
 
-## 🧩 Challenges We Ran Into
+## Challenges We Ran Into
 
 - **Paymaster Integration**: Multi-type gas sponsorship required deep debugging.
 - **UI Responsiveness**: Framer Motion had to be optimized across devices.
 - **DeFi Yield Feeds**: Mockups were needed due to the lack of real-time data.
-- **CLI Setup**: Tailwind CSS CLI had conflicts on Windows Git Bash.
 
 ---
 
-## 💻 Technologies We Used
+## Technologies We Used
 
 - **Frontend**: React, TypeScript, Tailwind CSS, Framer Motion
 - **Blockchain**: Ethers.js, NERO Chain (Testnet), Paymaster, Account Abstraction
@@ -49,7 +40,7 @@ Web3 savings are often inaccessible due to:
 
 ---
 
-## 🛠️ How We Built It
+## How We Built It
 
 1. **Setup**: Initialized a React TypeScript app with `create-react-app`.
 2. **Design**: Built a vibrant UI using Tailwind CSS (`indigo/emerald`) + Framer Motion animations.
@@ -59,7 +50,7 @@ Web3 savings are often inaccessible due to:
 
 ---
 
-## 🌟 What We Learned
+## What We Learned
 
 - Simplicity is key for onboarding non-Web3 users.
 - Account Abstraction on NERO unlocks gasless UX but requires solid error handling.
@@ -68,7 +59,7 @@ Web3 savings are often inaccessible due to:
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -81,7 +72,7 @@ Web3 savings are often inaccessible due to:
 ### Installation
 
 ```bash
-git clone https://github.com/your-username/autovest.git
+git clone https://github.com/ernnies/Autovest.git
 cd autovest
 npm install
 npm install tailwindcss@4.1.10 @tailwindcss/forms@0.5.10 framer-motion ethers @web3auth/base react-toastify --legacy-peer-deps
@@ -115,7 +106,7 @@ Visit [http://localhost:3000](http://localhost:3000) in your browser.
 
 ---
 
-## 💡 Usage
+## Usage
 
 1. Connect MetaMask to NERO Testnet.
 2. Set auto-deposit intervals in the **SavingsForm**.
@@ -125,7 +116,7 @@ Visit [http://localhost:3000](http://localhost:3000) in your browser.
 
 ---
 
-## 🛡️ Troubleshooting
+## Troubleshooting
 
 * **Tailwind CLI Error**: If `tailwindcss init -p` fails, create `tailwind.config.js` and `postcss.config.js` manually.
 * **Security Warnings**: Run `npm audit fix` or `npm audit fix --force` to address vulnerabilities.
@@ -135,13 +126,13 @@ Visit [http://localhost:3000](http://localhost:3000) in your browser.
 
 ## 🌍 What’s Next for Autovest?
 
-* **Wave 4**: Gamified savings (Piggy Points), SocialFi leaderboards, NFT skin customization.
-* **Wave 5**: Yield optimization engine, cross-chain bridge (Ethereum/BNB), AI-powered advisor.
+* **Wave 6**: Gamified savings (Piggy Points), SocialFi leaderboards, NFT skin customization.
+* **Wave 7**: Yield optimization engine, cross-chain bridge (Ethereum/BNB), AI-powered advisor.
 * **Future**: Mobile app, strategy marketplace, and NERO Chain ecosystem integrations.
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 We welcome contributions!
 
@@ -153,17 +144,13 @@ We welcome contributions!
 # Open a pull request
 ```
 
-Join our [X community](https://x.com/your-handle) for updates and discussions.
-
----
-
-## 📜 License
+## License
 
 MIT License – free to use, modify, and distribute.
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 * **NERO Chain Team** for enabling innovation with Blockspace 2.0 and AA Paymasters.
 * **Web3 Community** for feedback, feature ideas, and support throughout the Buildathon.
@@ -171,10 +158,3 @@ MIT License – free to use, modify, and distribute.
 ---
 
 > 🐷💸 Happy Hacking with Autovest!
-
-```
-
----
-
-Let me know if you'd like help creating the actual logo, GitHub repo structure, `.env.example` file, or walkthrough video script.
-```
