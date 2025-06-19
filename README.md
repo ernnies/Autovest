@@ -1,4 +1,4 @@
-# Autovest: Your Web3 Piggy Bank 🚀
+# Autovest: Your Web3 Piggy Bank
 
 Welcome to **Autovest**, a decentralized application (dApp) built on **NERO Chain** that reimagines savings as a seamless, rewarding journey. Autovest is your Web3 piggy bank—automating stablecoin deposits, earning low-risk DeFi yields, and removing the friction of gas fees through NERO’s **Paymaster**. Autovest delivers simplicity, accessibility, and fun to onboard the next billion Web3 users.
 
